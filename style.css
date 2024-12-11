@@ -1,13 +1,17 @@
 html {
     box-sizing: border-box; 
-    /* this will stretch page based on padding */
+    /* When you use box-sizing: border-box;, the padding and border are included
+     within the width and height you set for the element, not added to it.
+      This makes it easier to 
+    manage the element's size without having to account for padding and border.*/
 }
 
 body {
     margin: 0;
     min-height: 100vh;
-    /* view port height which means entire height of the screen 
-    if though the content is not screen size but entire screen 
-    background-color: blue; 
+    /*Full-page layouts: Ensuring that the body or a specific
+     container covers at least the full screen height, even 
+     if the content is not enough to fill the page.
+
     */
 }
